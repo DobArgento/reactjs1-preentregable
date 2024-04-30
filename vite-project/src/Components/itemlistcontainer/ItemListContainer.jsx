@@ -27,7 +27,6 @@ const ItemListContainer = ({ message }) => {
           <div key={product.id} className="product-card">
             <h3>{product.name}</h3>
             <p>Precio: ${product.price}</p>
-            {/* Aquí podrías añadir más detalles del producto, como imagen, descripción, etc. */}
           </div>
         ))}
       </div>
